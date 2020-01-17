@@ -12,3 +12,4 @@ To Do list
 1.how to name the page
 2.what icon 
 
+8. Choose colors
