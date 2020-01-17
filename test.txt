@@ -1,5 +1,5 @@
-PARAMETERS CSS
+		PARAMETERS CSS
 
 - Font-family: 'Ibarra Real Nova", serif;
 - Font-size: 14px for body and 24px for titles
-
+- Color Pallete: Cool and calm
