@@ -2,6 +2,29 @@ body {
   Font-family: 'Ibarra Real Nova', serif;
 }
 
+.media img {
+    width: 200px;
+    height: 200px;
+
+  }
+  .media-thumbnail img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+  }
+  .media-body-about {
+    text-align: left;
+  }
+  .media-thumbnail {
+    display: flex;
+  }
+.goblog {
+ background-color: #6BBAA7;
+}
+.textbtn {
+  color: white;
+}
 
 
 /* Contact Form */
