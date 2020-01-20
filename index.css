@@ -1,3 +1,106 @@
 body {
   Font-family: 'Ibarra Real Nova', serif;
 }
+
+
+
+/* Contact Form */
+
+  .contactform {
+    background-color: #EBDFDD;
+    padding: 10px;
+  }
+
+  .contactusbox{
+    background-color: #FBA100;
+  }
+
+  .cardform {
+    height: 400px;
+  }
+
+  .form-group{
+    height: 60px;
+  }
+
+  .contactusbtn {
+    color: white;
+    background-color: #6bbaa7;
+    margin-top: 10px;
+  }
+
+  .linklist {
+    list-style: none;
+  }
+
+  .linklist li{
+    color: white;
+  }
+
+  .linklist a {
+    color: white;
+  }
+
+  .linklist :hover {
+    color: #FBA100;
+  }
+
+
+/* Map */
+
+  .findustitle{
+    text-align: center;
+    color: #6c648b;
+
+  }
+
+  .map-container-5{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    opacity: 80%;
+  }
+  .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+
+/* Footer */
+
+
+footer {
+  background-color: #6C648B;
+  padding-top: 10px;
+}
+
+.socialmedia {
+  list-style: none;
+}
+
+
+.linklist-parent {
+  list-style: none;
+}
+
+/* PLACES TO SEE SECTION: we going to put here the CSS about the diferent pages of the site. */
+
+
+  /* Art and Culture */
+
+
+  /* Gastronomy */
+
+
+  /* Curiositys */
+
+
+  .jumbotron {
+
+    background-image: url("https://picsum.photos/200");
+    background-size: cover;
+}
