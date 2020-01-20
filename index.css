@@ -19,11 +19,11 @@ body {
   .media-thumbnail {
     display: flex;
   }
-.goblog {
- background-color: #6BBAA7;
-}
-.textbtn {
-  color: white;
+  .goblog {
+   background-color: #6BBAA7;
+  }
+  .textbtn {
+    color: white;
 }
 
 
