@@ -2,6 +2,10 @@ body {
   Font-family: 'Ibarra Real Nova', serif;
 }
 
+.navbar {
+  background-color: #6C648B;
+}
+
 .media img {
     width: 200px;
     height: 200px;
