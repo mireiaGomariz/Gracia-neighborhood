@@ -2,6 +2,10 @@ body {
   Font-family: 'Ibarra Real Nova', serif;
 }
 
+.navbar {
+  background-color: #6C648B;
+}
+
 .media img {
     width: 200px;
     height: 200px;
@@ -19,11 +23,11 @@ body {
   .media-thumbnail {
     display: flex;
   }
-.goblog {
- background-color: #6BBAA7;
-}
-.textbtn {
-  color: white;
+  .goblog {
+   background-color: #6BBAA7;
+  }
+  .textbtn {
+    color: white;
 }
 
 
@@ -120,10 +124,3 @@ footer {
 
 
   /* Curiositys */
-
-
-  .jumbotron {
-
-    background-image: url("https://picsum.photos/200");
-    background-size: cover;
-}
