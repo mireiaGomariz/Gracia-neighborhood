@@ -22,26 +22,26 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Places to see
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Art and Culture</a>
+                      <a class="dropdown-item" href="arts.html">Art and Culture</a>
                       <a class="dropdown-item" href="#">Gastronomy</a>
-                      <a class="dropdown-item" href="#">Curiosity</a>
+                      <a class="dropdown-item" href="curiosity.html">Curiosity</a>
                     </div>
                   </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">News Feed</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="#aboutus">About Us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
               </div>
@@ -98,17 +98,97 @@
    </div>
 
     <!-- Places to see -->
-
-
-
-
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <div class="container">
+               <div class="grid">
+                   <div class="row">
+                       <div class="col-md-4">
+                           <figure class="effect-ravi">
+                               <img src="./img/Categories (what to see)/bravas.jpg" alt="delicious bravas" />
+                               <figcaption>
+                                   <h2>Food <span>Drinks</span></h2>
+                                   <p>
+                                       <a href="#"><i class="fa fa-search"></i></a>
+                                   </p>
+                               </figcaption>
+                           </figure>
+                       </div>
+                       <div class="col-md-4">
+                           <figure class="effect-ravi">
+                               <img src="./img/Categories (what to see)/artandculture.jpg" alt="Gaudi mosaico" />
+                               <figcaption>
+                                   <h2>Art <span>Culture</span></h2>
+                                   <p>
+                                       <a href="#"><i class="fa fa-search"></i></a>
+   
+                                   </p>
+                               </figcaption>
+                           </figure>
+                       </div>
+                       <div class="col-md-4">
+                           <figure class="effect-ravi">
+                               <img src="./img/Categories (what to see)/curiosities.jpg" alt="sky" />
+                               <figcaption>
+                                   <h2>Curiosities</h2>
+                                   <p>
+                                       <a href="#"><i class="fa fa-search"></i></a>
+   
+                                   </p>
+                               </figcaption>
+                           </figure>
+                       </div>
+                      </div>
+   
+               </div>
+   
+           </div>
 
     <!-- News feed -->
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Upcoming Events</button>
+
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="card-deck">
+            <div class="cardnews">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="cardnews">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="cardnews">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
 
 <!-- About Us -->
 
-  <div class="container about mt-5">
+  <div class="container about mt-5" id=aboutus>
    <div class="row">
     <div class="col">
       <h1>About Us</h1>
@@ -129,9 +209,12 @@
 
 
 
+
+  
+
   <!-- Contact and Map -->
 
-  <div class="container contactform my-4">
+  <div class="container contactform my-4" id="contact">
     <div class="row">
         <div class="col-lg-1 col-md-12 col-sm-12">
         </div>
@@ -237,4 +320,5 @@
 
   </body>
 </html>
-<hr>
+
+    
