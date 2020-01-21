@@ -15,7 +15,7 @@
       <div class="col-12">
           <ul>
             <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-              <a class="navbar-brand" href="#">StreetsOfGracia</a>
+              <a class="navbar-brand" href="index.html">StreetsOfGracia</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,7 +30,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <a class="dropdown-item" href="arts.html">Art and Culture</a>
-                      <a class="dropdown-item" href="#">Gastronomy</a>
+                      <a class="dropdown-item" href="gastronomy.html">Gastronomy</a>
                       <a class="dropdown-item" href="curiosity.html">Curiosity</a>
                     </div>
                   </li>
@@ -64,6 +64,7 @@
 
 <!-- Carousel -->
 
+<div class="container-carrousel"  >
   <div class="container">
     <div class="row">
       <div class="col-12"></div>
@@ -107,49 +108,51 @@
    </div>
 
     <!-- Places to see -->
-    <div class="container">
-               <div class="grid">
-                   <div class="row">
-                       <div class="col-md-4">
-                           <figure class="effect-ravi">
-                               <img src="./img/Categories (what to see)/bravas.jpg" alt="delicious bravas" />
-                               <figcaption>
-                                   <h2>Food <span>Drinks</span></h2>
-                                   <p>
-                                       <a href="#"><i class="fa fa-search"></i></a>
-                                   </p>
-                               </figcaption>
-                           </figure>
-                       </div>
-                       <div class="col-md-4">
-                           <figure class="effect-ravi">
-                                <a href="arts.html"><img href="arts.html" src="./img/Categories (what to see)/artandculture.jpg" alt="Gaudi mosaico" />
-                               <figcaption>
-                                   <h2>Art <span>Culture</span></h2>
-                                   <p>
-                                      <i class="fa fa-search"></i>
-                                   </p>
-                               </figcaption>
-                               </a>
-                           </figure>
-                       </div>
-                       <div class="col-md-4">
-                           <figure class="effect-ravi">
-                                 <a href="curiosity.html"><img src="./img/Categories (what to see)/curiosities.jpg" alt="sky">
-                               <figcaption>
-                                   <h2>Curiosities</h2>
-                                   <p>
-                                      <i class="fa fa-search"></i>
-
-                                   </p>
-                               </figcaption>
-                             </a>
-                           </figure>
-                       </div>
-                      </div>
-
-               </div>
-
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <div class="container-places">
+      <div class="container">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <figure class="effect-ravi">
+                                <img src="./img/Categories (what to see)/bravas.jpg" alt="delicious bravas" />
+                                <figcaption>
+                                    <h2>Food <span>Drinks</span></h2>
+                                    <p>
+                                        <a href="gastronomy.html" target="_blank"><i class="fa fa-search"></i></a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure class="effect-ravi">
+                                <img src="./img/Categories (what to see)/artandculture.jpg" alt="Gaudi mosaico" />
+                                <figcaption>
+                                    <h2>Art <span>Culture</span></h2>
+                                    <p>
+                                        <a href="arts.html" target="_blank"><i class="fa fa-search"></i></a>
+    
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-4">
+                            <figure class="effect-ravi">
+                                <img src="./img/Categories (what to see)/curiosities.jpg" alt="sky" />
+                                <figcaption>
+                                    <h2>Curiosities</h2>
+                                    <p>
+                                        <a href="curiosity.html"><i class="fa fa-search"></i></a>
+    
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        </div>
+    
+                </div>
+    
+            </div>
            </div>
 
     <!-- News feed -->
@@ -157,40 +160,36 @@
 <div class="container">
   <div class="row">
     <div class="col">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Upcoming Events</button>
-
-    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <div class="card-deck">
-            <div class="cardnews">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="cardnews">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="cardnews">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
+      <h1>Upcoming Events</h1>
+      <div class="card-deck">
+        <div class="card">
+          <img src="./img/events/festamajordegracia .jpg" class="card-img-top" alt="Decorated streets">
+          <div class="card-body">
+            <h3 class="card-title">Festa Major de Gràcia</h3>
+            <h5 class="card-title">Aug 15-21, 2019</h5>
+            <p class="card-text">The main event at Gràcia’s extravagant Festa Major is its street competition, where residents transform some 25 streets into pirate ships, rainforests and Jurassic landscapes.</p>
+            <p class="card-text"><small class="text-muted">Where: all over Gràcia</small></p>
           </div>
         </div>
-       </div>
-     </div>
+        <div class="card">
+          <img src="./img/events/sapoblagracia.jpg" class="card-img-top" alt="Man spliting fire">
+          <div class="card-body">
+            <h3 class="card-title">Sa Pobla a Gràcia</h3>
+            <h5 class="card-title">Jan 26, 2019 (2020 dates TBA)</h5>
+            <p class="card-text">Celebration in honour of St Anthony. Two days of Balearic folk festivities see street bonfires, parades of dragons and giants and human towers in the squares..</p>
+            <p class="card-text"><small class="text-muted">Where: Gràcia, around Plaça del Diamant, Plaça de la Vila de Gràcia</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/events/lemfestival.jpg" class="card-img-top" alt="saxophonists">
+          <div class="card-body">
+            <h3 class="card-title">LEM Festival</h3>
+            <h5 class="card-title">When: Sep 27 - Oct 27 (2019 dates TBA)</h5>
+            <p class="card-text">A month-long, well-organised festival of multimedia art and experimental music. It mostly covers electronica, but also includes jazz and rock. Concerts are generally free.</p>
+            <p class="card-text"><small class="text-muted">Where: various venues, Gràcia</small></p>
+          </div>
+        </div>
+      </div>
    </div>
  </div>
 </div>
