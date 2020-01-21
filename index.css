@@ -2,6 +2,15 @@ body {
   Font-family: 'Ibarra Real Nova', serif;
 }
 
+h1{
+  font-size: 50px;
+}
+
+.blueof {
+  color: #fba100;
+
+}
+
 /* Places to see cards */
 .container-places {
   margin-bottom: 2cm;
