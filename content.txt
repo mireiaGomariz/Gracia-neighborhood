@@ -1,0 +1,23 @@
+Navbar:
+Home
+Places to see
+NewsFeed
+About Us
+Contact
+
+Nice Carousel
+*3 panoramic photos
+text:
+
+Gracia become part of Barcelona startig with 1897
+The bohemian enclave of Catalan urban life
+True local experience - city's atmosphere on its quiet placas and Catalan cuisine
+
+PLACES TO SEE:
+
+1.Gastronomy/Drinks
+
+2.Art and Culture
+
+-The smallest theater in the World
+-
