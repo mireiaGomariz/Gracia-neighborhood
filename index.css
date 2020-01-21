@@ -1,6 +1,7 @@
 body {
   Font-family: 'Ibarra Real Nova', serif;
 }
+/* Carousel Bootramp*/
 
 h1{
   font-size: 50px;
@@ -17,6 +18,9 @@ h1{
 }
 
 /* Places to see cards */
+.container-places {
+  margin-bottom: 2cm;
+}
 
 .grid figure {
   position: relative;
@@ -316,3 +320,8 @@ footer {
 
 
   /* Curiositys */
+
+  /* Carrousel */
+.container-carrousel {
+  margin-bottom: 2cm;
+}
