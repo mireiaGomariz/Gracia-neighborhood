@@ -11,6 +11,11 @@ h1{
 
 }
 
+.textsm {
+  font-size: 15px;
+
+}
+
 /* Places to see cards */
 
 .grid figure {
