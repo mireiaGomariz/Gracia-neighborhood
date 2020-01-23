@@ -3,48 +3,49 @@ body {
     padding-left: 20px;
   }
 
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {   
-    float: left;
-    width: 75%;
-  }
-  
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-  }
-  
-  /* Fake image */
-  .fakeimg {
-      width: 100%;
-    padding: 40px;
-  }
-  
-  /* Add a card effect for articles */
-  .card {
-     background-color: white;
-     padding: 20px;
-     margin-top: 20px;
-  }
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-}
 h3 {
-    text-align: center;
+  text-align: center;
 }
-/* verify */
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  width: 100%;
+  padding: 40px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+}
+
 .card-columns {
     @include media-breakpoint-only(lg) {
       column-count: 4;
