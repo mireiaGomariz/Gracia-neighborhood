@@ -293,6 +293,14 @@ figure.effect-ravi:hover p i:empty {
   }
 
 
+
+/* Art */
+
+.orangebutton {
+  color: white;
+  background-color: #fba100;
+}
+
 /* Footer */
 
 
@@ -310,18 +318,7 @@ footer {
   list-style: none;
 }
 
-/* PLACES TO SEE SECTION: we going to put here the CSS about the diferent pages of the site. */
 
-
-  /* Art and Culture */
-
-
-  /* Gastronomy */
-
-
-  /* Curiositys */
-
-  /* Carrousel */
 .container-carrousel {
   margin-bottom: 2cm;
 }
